@@ -1,6 +1,6 @@
 
 chipoto, a chip8 simulator
- © 2k15 noferi Mickael . r043v/dhh .. under cc by-nc-sa
+ © 2k15 noferi Mickael . r043v/dph .. under cc by-nc-sa
 
 use pthread, ncurse and sdl2,
 
