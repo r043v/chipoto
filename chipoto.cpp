@@ -1,5 +1,5 @@
 
-#define rom2load "./worm.ch8"
+#define rom2load "./trip8.ch8"
 #define chip8_opsExecSpeed 1000000 // 0 ~ 1.000.000Hz
 #define chip8_useThread
 #define chip8_enableScreenFade
@@ -372,11 +372,11 @@ namespace chip8 {
 							u8 * r = ram.index;
 							*r = 0;
 							while(n > 99){
-								n -= 99; (*r)++;
+								n -= 100; (*r)++;
 							};
 							r++; *r = 0;
 							while(n > 9){
-								n -= 9; (*r)++;
+								n -= 10; (*r)++;
 							};
 							r++; *r = n;
 						}
